@@ -33,7 +33,7 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-4. 填入API密钥
+4. 填入API密钥:
 ```env
 API_KEY=your_api_key_here
 ```
@@ -47,7 +47,7 @@ python qwen-vl-ocr.py
 3. 识别结果将保存至`ocr_results.txt`
 
 
-## ⚙️ 文件结构
+## 📂 文件结构
 ```
 ├── requirements.txt        # 依赖列表
 ├── qwen-vl-ocr.py          # 主程序
@@ -62,5 +62,5 @@ python qwen-vl-ocr.py
 ❗ 当前支持常见图片格式：`jpg/jpeg/png/bmp`
 
 
-## 贡献
+## 🤝 贡献
 欢迎提交Issue和PR！如有问题请通过Issue反馈。
